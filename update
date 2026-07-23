@@ -159,10 +159,23 @@ Contemplando lo anterior, la programación resulto en la creación de 2 formular
  
 
 Interfaces de formularios
-La interfaz con mayor número de acciones se denominó como la principal, Almacen permite visualizar las existencias de la herramienta en general. También es posible observar los movimientos efectuados en la herramienta, como el consumo o las entradas de material. Como se puede observar en la siguiente imagen, al iniciar el formulario se genera una interfaz sencilla con los siguientes elementos: cuadro combinado, cuadro de lista y botón.
+La interfaz con principal se consideró la que mayor número de acciones contenía, Almacen permite visualizar las existencias de la herramienta en general. También es posible observar los movimientos efectuados en la herramienta, como el consumo o las entradas de material. Como se puede observar en la siguiente imagen, al iniciar el formulario se genera una interfaz sencilla con los siguientes elementos: cuadro combinado, cuadro de lista y botón.
  
 
-Los cuadros combinados (combobox en inglés) se utilizan para realizar la búsqueda de ítems. Estos objetos pueden almacenar una lista de palabras y mostrarla cuando se despliega el cuadro como se muestra en la siguiente imagen. 
+Los cuadros combinados (combobox en inglés) se utilizaron para realizar la búsqueda de ítems. Estos objetos pueden almacenar una lista de palabras y mostrarla cuando se despliega el cuadro como se muestra en la siguiente imagen. Gracias a lo anterior se programaron filtros para facilitar la búsqueda de herramienta.
 
  
-Los cuadros de lista fueron utilizados para...
+Los cuadros de lista se emplearon para la visualización de elementos y para otras acciones determinadas. En esta primera pestaña de la interfaz, el cuadro de lista posibilitó la lectura de existencias de los distintos ítems, observar imagen A. Al interactuar con el cuadro de lista se despliega otra pestaña con información del artículo en detalle. En esta pestaña la programación no autoriza la edición de la información para evitar modificaciones por error humano. Imagen B
+  
+
+Como se puede notar en la imagen B, la pestaña cuenta con un cuadro de lista que facilita la revisión de las acciones efectuadas del artículo seleccionado.
+Volviendo a la interfaz principal se puede identificar un icono de Excel, este icono contiene la programación necesaria para exportar una lista de los artículos con existencias agotadas o por debajo del mínimo.
+ 
+Para generar el archivo Excel de los artículos con existencias mínimas se despliega el cuadro estándar guardar como para seleccionar la ubicación del archivo, observar imagen siguiente. La lógica del código filtra los artículos con cero existencias y los artículos con cantidades menores que las mínimas.
+ 
+
+La 
+ 
+Cuando se necesite registrar la salida de o entrada de materiales se deben
+A continuación, se explica la funcionalidad del botón Entrada de mercancía,
+ 
